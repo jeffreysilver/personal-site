@@ -11,7 +11,6 @@ type Props = {
 const App: SFC<Props> = (props: Props) => {
   const { Component, pageProps } = props;
   return (
-
     <React.Fragment>
       <Head>
         <title>jeffrey silver</title>
@@ -19,7 +18,7 @@ const App: SFC<Props> = (props: Props) => {
 
       <Component {...pageProps} />
     </React.Fragment>
-  )
+  );
 };
 
 export default App;

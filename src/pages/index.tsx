@@ -1,8 +1,6 @@
-import { SFC } from "react";
-
 import HomePage from "../components/home/index";
 
-const Home = () => {
+const Home: React.SFC = () => {
   return <HomePage />;
 };
 
